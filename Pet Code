@@ -1,0 +1,15 @@
+class Pet:
+    def __init__(self, name, gender, age, weight, furcolor, eyecolor, personality,):
+        self.name = name
+        self.gender = gender
+        self.age = age
+        self.weight = weight
+        self.furcolor = furcolor
+        self.eyecolor = eyecolor
+        self.personality = personality
+        
+Cat = Pet("Nika", "Female", "3 years old", "4 kg", "White", "Blue", "Lazy")
+print("Hello! Meow!\n", "Name: ", Cat.name, "\nGender: ", Cat.gender, "\nAge: ", Cat.age, "\nWeight: ", Cat.weight, "\nFur Color:", Cat.furcolor, "\nEye Color:", Cat.eyecolor, "\nPersonality:", Cat.personality)
+
+Dog = Pet("Leo", "Male", "2 years old", "10 kg", "Golden", "Brown", "Cheerful")
+print("\nHi! Woof! \n", "Name: ", Dog.name, "\nGender: ", Dog.gender, "\nAge: ", Dog.age, "\nWeight: ", Dog.weight, "\nFur Color:", Dog.furcolor, "\nEye Color:", Dog.eyecolor, "\nPersonality:", Dog.personality)
